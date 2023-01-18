@@ -7,56 +7,74 @@
     <title>Document</title>
 </head>
 <body>
-    <header>Title Of The Page</header>
-    <nav>
-        <article>Page Name</article>
-        <article>Page Name</article>
-        <article>Page Name</article>
-    </nav>
-    <main>
-        <label for="fullname">Full Name</label></br>
-        <input type="text" id="fname" name="fullname"></br>
-        
-        <label for="email">Email:</label></br>
-        <input type="email" id="email" name="email"></br>
-        
-        <label for="pass">Password (8 characters minimum):</label></br>
-        <input type="password" id="pass" name="password" minlength="8" required></br>
-
-        <label for="age">Select Your Age: </label></br>
-            <select id="age" name="age"></br>
-                <option value="bellow_18">Bellow 18</option></br>
-                <option value="18_64">18-64</option></br>
-                <option value="above_64">Above 64</option></br>
-            </select>
-        
-            <label for="city">Select Your City: </label></br>
-            <select id="city" name="city"></br>
-                <option value="skopje">Skopje</option></br>
-                <option value="kumanovo">Kumanovo</option></br>
-                <option value="tetovo">Tetovo</option></br>
-                <option value="veles">Veles</option></br>
-                <option value="shtip">Shtip</option></br>
-                <option value="prilep">Prilep</option></br>
-                <option value="ohrid">Ohrid</option></br>
-                <option value="bitola">Bitola</option></br>
-                <option value="strumica">Strumica</option></br>
-                <option value="gostivar">Gostivar</option></br>
-            </select></br>
-
-            <input type="checkbox" name="vhl1">
-            <label> Bike</label><br>
-            <input type="checkbox" name="vhl2">
-            <label>Car</label><br>
-            <input type="checkbox" name="vhl3">
-            <label>Boat</label><br>
-
-            <input type="submit" name="submitBtn">
-
-
-    </main>
-    <footer>
-        <a href="https://github.com/Kristijan-Naumovski/KristijanNaumovski-CodeAcademy" target="_blank">Kristijan-Naumovski</a>
-    </footer>
+    <table>
+        <thead>
+        <center>
+            <header>Title Of The Page</header><br>
+        </center>
+        </thead>
+            <tr>  
+                <nav style="float:left;">
+                    <article>Page Name</article>
+                    <article>Page Name</article>
+                    <article>Page Name</article>
+                </nav>
+            </tr>
+            
+            <tr>
+                <main>
+                        <tbody>
+                            <center>
+                                <label for="fullname">Full Name</label>
+                                <input type="text" id="fname" name="fullname"><br>
+                                      
+                                <label for="email">Email:</label>
+                                <input type="email" id="email" name="email"><br>
+                            
+                                <label for="pass">Password (8 characters minimum):</label>
+                                <input type="password" id="pass" name="password" minlength="8" required><br>
+                           
+                                <label for="age">Select Your Age: </label>
+                                <select id="age" name="age">
+                                    <option value="bellow_18">Bellow 18</option>
+                                    <option value="18_64">18-64</option>
+                                    <option value="above_64">Above 64</option>
+                                </select><br>
+                            
+                                <label for="city">Select Your City: </label>
+                                    <select id="city" name="city">
+                                        <option value="skopje">Skopje</option>
+                                        <option value="kumanovo">Kumanovo</option>
+                                        <option value="tetovo">Tetovo</option>
+                                        <option value="veles">Veles</option>
+                                        <option value="shtip">Shtip</option>
+                                        <option value="prilep">Prilep</option>
+                                        <option value="ohrid">Ohrid</option>
+                                        <option value="bitola">Bitola</option>
+                                        <option value="strumica">Strumica</option>
+                                        <option value="gostivar">Gostivar</option>
+                                    </select></br>
+                            
+                                <input type="checkbox" name="vhl1">
+                                <label> Bike</label>
+                                <input type="checkbox" name="vhl2">
+                                <label>Car</label>
+                                <input type="checkbox" name="vhl3">
+                                <label>Boat</label>
+                            <br>
+                                <label type="submitBtn" name="submitBtn"></label>
+                                <input type="submit" name="submitBtn"><br>
+                            </center>
+                            </tbody>
+                    </main>
+                </tr>
+            <tfoot>
+                    <footer>
+                        <center>
+                        <a href="https://github.com/Kristijan-Naumovski/KristijanNaumovski-CodeAcademy" target="_blank">Kristijan-Naumovski</a>
+                        </center>
+                    </footer>
+            </tfoot>
+    </table>
 </body>
 </html>
