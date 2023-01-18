@@ -4,44 +4,43 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Homework2.1</title>
 </head>
 <body>
-    <table>
-        <thead>
-        <center>
-            <header>Title Of The Page</header><br>
-        </center>
-        </thead>
-            <tr>  
-                <nav style="float:left;">
-                    <article>Page Name</article>
-                    <article>Page Name</article>
-                    <article>Page Name</article>
+        <table>
+            <tr>
+            <th colspan="2">Title Of The Page</th><br>
+            </tr>
+
+            <tr>
+                <nav>
+                    <td rowspan="3">
+                    Page Name<br>
+                    Page Name<br>
+                    Page Name
+                </td>
                 </nav>
             </tr>
-            
-            <tr>
                 <main>
-                        <tbody>
-                            <center>
-                                <label for="fullname">Full Name</label>
+                    <tr>
+                        <td>
+                                <label for="fullname">Full Name</label><br>
                                 <input type="text" id="fname" name="fullname"><br>
-                                      
-                                <label for="email">Email:</label>
+ 
+                                <label for="email">Email:</label><br>
                                 <input type="email" id="email" name="email"><br>
-                            
-                                <label for="pass">Password (8 characters minimum):</label>
+
+                                <label for="pass">Password (8 characters minimum):</label><br>
                                 <input type="password" id="pass" name="password" minlength="8" required><br>
-                           
-                                <label for="age">Select Your Age: </label>
+
+                                <label for="age">Select Your Age: </label><br>
                                 <select id="age" name="age">
                                     <option value="bellow_18">Bellow 18</option>
                                     <option value="18_64">18-64</option>
                                     <option value="above_64">Above 64</option>
                                 </select><br>
-                            
-                                <label for="city">Select Your City: </label>
+
+                                <label for="city">Select Your City: </label><br>
                                     <select id="city" name="city">
                                         <option value="skopje">Skopje</option>
                                         <option value="kumanovo">Kumanovo</option>
@@ -54,27 +53,25 @@
                                         <option value="strumica">Strumica</option>
                                         <option value="gostivar">Gostivar</option>
                                     </select></br>
-                            
+
                                 <input type="checkbox" name="vhl1">
-                                <label> Bike</label>
+                                <label> Bike</label><br>
                                 <input type="checkbox" name="vhl2">
-                                <label>Car</label>
+                                <label>Car</label><br>
                                 <input type="checkbox" name="vhl3">
-                                <label>Boat</label>
-                            <br>
+                                <label>Boat</label><br>
+
                                 <label type="submitBtn" name="submitBtn"></label>
                                 <input type="submit" name="submitBtn"><br>
-                            </center>
-                            </tbody>
+                                </td>
+                    </tr>      
                     </main>
-                </tr>
-            <tfoot>
-                    <footer>
-                        <center>
+               
+                    <tfoot>
+                        <td>
                         <a href="https://github.com/Kristijan-Naumovski/KristijanNaumovski-CodeAcademy" target="_blank">Kristijan-Naumovski</a>
-                        </center>
-                    </footer>
-            </tfoot>
-    </table>
+                        </td>
+                    </tfoot>
+        </table> 
 </body>
 </html>
