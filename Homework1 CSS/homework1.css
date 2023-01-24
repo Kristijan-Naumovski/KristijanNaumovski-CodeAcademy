@@ -1,0 +1,54 @@
+body {
+    background: black url(http://www.clker.com/cliparts/K/C/r/p/W/o/grey-oak-tree-hi.png) no-repeat left top;
+}
+
+body {
+    font-family:Georgia, 'Times New Roman', Times, serif;
+}
+
+.title{
+    color:aliceblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-style: italic;
+    font-weight: bold;
+}
+
+.para1{
+    color:blueviolet;
+    text-transform: capitalize;
+    text-align:justify;
+    font-style: oblique;
+    font-size: larger;
+}
+
+.para2{
+    color: aquamarine;
+    text-transform: capitalize;
+    text-align: center;
+    font-style: unset;
+    font-size: medium;
+}
+
+.para3{
+    color: burlywood;
+    text-transform:uppercase;
+    text-align: right;
+    font-style:initial;
+    font-size: small;
+}
+
+.para4{
+    color: crimson;
+    text-transform: lowercase;
+    text-align: left;
+    font-variant: small-caps;
+    font-weight: 700;
+}
+
+.foot{
+    color: cornflowerblue;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bolder;
+}
