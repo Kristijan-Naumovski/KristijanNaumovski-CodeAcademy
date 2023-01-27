@@ -1,0 +1,96 @@
+.para11 {
+  background-color: aqua;
+  width: 150px;
+  height: 150px;
+  float: left;
+  overflow: hidden;
+}
+.para11:hover {
+  width: 300px;
+}
+.para12 {
+  background-color: brown;
+  width: 150px;
+  height: 150px;
+  float: left;
+  overflow: scroll;
+}
+.para12:hover {
+  rotate: 90deg;
+}
+.para13 {
+  background-color: darkblue;
+  width: 150px;
+  height: 150px;
+  float: left;
+  overflow: visible;
+}
+.para13:hover {
+  width: 300px;
+}
+.NavBar {
+  background-color: aqua;
+  position: fixed;
+}
+.NavBar:hover {
+  opacity: 0;
+}
+
+.toby {
+  display: inline-block;
+  animation: spin 3s infinite linear;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.michael {
+  display: inline-block;
+  animation: pulse 1s infinite linear;
+}
+
+@keyframes pulse {
+  0% {
+    scale: 1;
+  }
+  50% {
+    scale: 1.05;
+  }
+  100% {
+    scale: 1;
+  }
+}
+
+.dwight {
+  display: inline-block;
+  animation: dwight 2s infinite linear;
+}
+
+@keyframes dwight {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(20vw);
+  }
+}
+
+.jim {
+  display: inline-block;
+  animation: jim 2s infinite linear;
+}
+
+@keyframes jim {
+  0% {
+    transform: translateX(0vw);
+  }
+  50% {
+    transform: translateX(-20vw);
+  }
+}
